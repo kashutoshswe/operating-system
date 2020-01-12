@@ -1,4 +1,4 @@
-## Literature Review  
+## Literature Review
 
 When electronic computers where first introduced in the 1940's they were created without any operating systems.
 All programming language was done is absolute machine language and is generally used for making simple math operation.
