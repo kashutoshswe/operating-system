@@ -1,2 +1,2 @@
-# operating-system
-This repository contains research about Operating System
+# Operating System
+The research work on reducing the boot time of the different linux / unix based operating system. 
