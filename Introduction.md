@@ -9,3 +9,18 @@ A Monolithic kernel is an architecture where the entire operating system includi
 As for the Microkernel Architecture it includes memory, process scheduling mechanisms and basic inter-process communication. Unlike monolithic kernel here, the user services and kernel services are implemented on different address space. The execution of a microkernel is quite slow in comparison to that of a monolithic kernel, but the microkernel is secure and they are very modular so if any changes to be made in the services it can be done without touching the kernel space as for in a monolithic kernel if a service fails then the entire system fails.[11] 
 
 The moral of the story is that anybody who's deciding what kernel architecture to use needs to first decide what their ultimate goal is. Microkernel systems are (when properly implemented, of course) more secure, maintainable, and modular. However, they can be tough to architect properly, and may have performance overhead over a monolithic implementation. A monolithic kernel will be faster, but security will be harder to implement and it will be less modular and less easy to customize.[12]  As per the aforementioned discussion, there is a gap in booting process. In our research we will discuss applicability of different boot time reduction techniques with respect to traditional Linux systems and various measurement methodologies necessary to combine with reduction techniques in order to effectively optimize and measure the boot time.
+
+## Current Scenario
+*On Hardware Level:*
+
+Flash memory is suitable for data storage because it has a volatility in which data can be written and erased and no refresh is needed. In particular, NOR flash memory is widely being used for booting and storage in Systems that do not require a high-speed interface. With the growth of the system market, a memory capable of Supporting high speed access, having large capacity, as well as being cost-effective due to service variety and high functionality has been requested. However, the conventional NOR flash memory does not fulfill such a request. Although conventional DRAM meets Such a request at present, it is a volatile memory and is not suitable for data storage.
+
+*On Software Level:*
+
+![Image of Software Level boot processes](https://raw.githubusercontent.com/Ashutoshcoder/operating-system/master/images/software-level.PNG)
+
+**What change we will do to improve situation?**
+
+In the meantime, since the NAND flash memory is easy to realize, has a large capacity, and is cost-effective compared with the NOR flash memory, it is widely used as a large capacity memory. Also, since the NAND flash memory is easy to fabricate and has a good integrity, its use as a booting memory has been proposed.
+
+V-NAND or 3D V-NAND is a cell layer-stacking technology where multiple flash memory cell layers are stacked vertically and 3-dimensionally on a single NAND chip.
