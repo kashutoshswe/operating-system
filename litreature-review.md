@@ -41,7 +41,7 @@ A service marked as Automatic (Delayed Start) will start shortly after all other
 
 ## Methodologies
 
-*Disabling unneeded daemons*
+*<ins>Disabling unneeded daemons</ins>*
 
 The operating Systems when booting usually starts a lot of daemons which results in a long waiting state before a user can get to work after powering on their system. Some of those daemons are rarely used (or even not all) by the majority of users. Hence, disabling unused or rarely used daemons at startup can result in faster boot sequences and less CPU load. Although one needs to be cautious while disabling daemons as disabling an important daemon can have serious consequences. Most distributions feature some kind of tool which allows you to manage daemons that are started on your computer when booting. The most common one is chkconfig, which features a command line interface. There is also a GUI for daemon startup configuration. A well-known one is serviceconf.
 This is a bit more advanced, so best not to do it if you don't know what this means. Install bum, and start it with root privileges. Then just untick the boxes in front of the daemons you are sure you don't need. For instance, when you don't have a scanner, you can disable scanner services. And if you never use Bluetooth, you can disable Bluetooth as well. When you're done, hit the Apply those changes to effect.
