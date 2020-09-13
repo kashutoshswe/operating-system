@@ -7,7 +7,7 @@ The research work on reducing the boot time of the different linux / unix based 
 3. [Literature Review](https://github.com/Ashutoshcoder/operating-system/blob/master/Litreature%20Review.md)
 4. [Business Case](https://github.com/Ashutoshcoder/operating-system/blob/master/Business%20Case.md)
 5. [Strategic Plan](https://github.com/Ashutoshcoder/operating-system/blob/master/Strategic%20Plan.md)
-6. [Portfolio Management]
+6. [Portfolio Management](https://github.com/Ashutoshcoder/operating-system/blob/master/Portfolio%20Management.md)
 7. [Technical Assessment]
 8. [Economic Assessment]
 9. [Triple Constraint]
