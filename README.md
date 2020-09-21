@@ -11,4 +11,5 @@ The research work on reducing the boot time of the different linux / unix based 
 7. [Technical Assessment](https://github.com/Ashutoshcoder/operating-system/blob/master/Technical%20Assessment.md)
 8. [Economic Assessment](https://github.com/Ashutoshcoder/operating-system/blob/master/Economic%20Assessment.md)
 9. [Triple Constraint](https://github.com/Ashutoshcoder/operating-system/blob/master/Triple%20Constraint.md)
-10. [Financial Aspects]
+10. [Financial Aspects](https://github.com/Ashutoshcoder/operating-system/blob/master/Financial%20Aspects.md)
+
