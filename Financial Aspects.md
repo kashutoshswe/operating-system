@@ -45,11 +45,11 @@ Year | Cash Flow | Present Value
   * Cash inflow = ₹15,50,000
   * Cash outflow = ₹7,60,000
 	  
-* *Year 3 *
+* *Year 3*
   * Cash inflow = ₹20,00,000
   * Cash outflow = ₹7,60,000
 	  
-* *Year 4 *
+* *Year 4*
   * Cash inflow = ₹20,00,000
   * Cash outflow = ₹7,60,000
 	  
